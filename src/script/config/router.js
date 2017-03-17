@@ -9,6 +9,10 @@ angular.module('app').config(['$stateProvider', '$urlRouterProvider', function($
 		url:"/postionli/:id",
 		templateUrl:"view/postionli.html",
 		controller:"postionliCtrl"
+	}).state('compaly',{
+		url:'/compaly/:id',
+		templateUrl:"view/compaly.html",
+		controller:"compalyCtrl"
 	});
 	$urlRouterProvider.otherwise('main');
 }]);

@@ -9,12 +9,14 @@
   </li> -->
   <li ui-sref="postionli({id:item.id})" class="item" ng-repeat="item in data">
       <img class="f-l logo" ng-src="{{item.imageUrl}}" alt="">
-        <h3 class="title" ng-bind="item.name">销售</h3>
-        <p class="text" ng-bind="item.companyname+'['+item.city+']'+industry">
-            千度[上海] 互联网
+        <h3 class="title" ng-bind="item.job">销售</h3>
+        <p class="text" ng-bind="item.companyName+'['+item.cityName+']'+industryName">
         </p>
-        <p ng-bind="item.time">
+        <p ng-bind="item.date">
 
         </p>
+        <div class="clear">
+
+        </div>
   </li>
 </ul>
