@@ -1,0 +1,20 @@
+<ul class="position-list bg-w">
+  <!-- <li class="item">
+  <img class="f-l logo" src="image/company-3.png" alt="">
+  <h3 class="title">销售</h3>
+  <p class="text">
+      千度[上海] 互联网<br>
+      2016-06-01 11:05
+  </p>
+  </li> -->
+  <li ui-sref="postionli({id:item.id})" class="item" ng-repeat="item in data">
+      <img class="f-l logo" ng-src="{{item.imageUrl}}" alt="">
+        <h3 class="title" ng-bind="item.name">销售</h3>
+        <p class="text" ng-bind="item.companyname+'['+item.city+']'+industry">
+            千度[上海] 互联网
+        </p>
+        <p ng-bind="item.time">
+
+        </p>
+  </li>
+</ul>

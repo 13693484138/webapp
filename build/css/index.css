@@ -1,0 +1,183 @@
+.f-r {
+  float: right;
+}
+.c-w {
+  color: #fff;
+}
+.f-l {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.bg-w {
+  background-color: #fff;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-m {
+  vertical-align: middle;
+}
+.head {
+  background-color: #12d5b5;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  padding: 0 7px;
+}
+.head .text {
+  color: #fff;
+}
+.head .back-bt {
+  font-size: 20px;
+  width: 1rem;
+  left: 0;
+}
+.head .custom {
+  background-color: #feae11;
+  border-color: #feae11;
+  color: #fff;
+  border-style: dashed;
+  margin-top: 0.26666667rem;
+  padding-right: 0.66666667rem;
+  padding-left: 0.66666667rem;
+}
+.foot {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 0;
+  line-height: 40px;
+  height: 40px;
+  border-top: 1px solid #d4d4d4;
+}
+.foot li {
+  font-size: 20px;
+  width: 33.3%;
+  color: #9f9191;
+}
+.foot li.select {
+  background-color: #dbf9f4;
+  color: #01c2a3;
+}
+.foot .icon-doument {
+  background: url(../image/document.png);
+  width: 25px;
+  height: 21px;
+}
+.foot .icon-search {
+  background: url(../image/search.png);
+  width: 24px;
+  height: 24px;
+}
+.foot .icon-my {
+  background: url(../image/my.png);
+  width: 23px;
+  height: 20px;
+}
+.position-list {
+  margin: 0;
+  padding: 0;
+}
+.position-list .item {
+  margin: 0;
+  padding: 7px 3px;
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+}
+.position-list .item .logo {
+  width: 1.73333333rem;
+  height: 1.73333333rem;
+}
+.position-list .item .title {
+  margin: 0;
+}
+.position-list .item .text {
+  margin: 0;
+}
+.button-btn {
+  position: fixed;
+  height: 1.2rem;
+  background: #12d5b5;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.position-desc {
+  margin-top: 10px;
+}
+.position-desc h5 {
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding-left: 10px;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  font-size: 16px;
+}
+.position-desc p {
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  padding-left: 10px;
+  margin: 0;
+  color: #000;
+}
+.position-Info {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 26px 10px 18px 18px;
+}
+.position-Info .ml {
+  margin-left: 20px;
+}
+.position-Info img {
+  right: 24px;
+  top: 40px;
+}
+.conpany-info {
+  padding: 20px 15px 13px 85px;
+}
+.conpany-info img {
+  width: 1.6rem;
+  height: 1.6rem;
+  left: 15px;
+}
+.conpany-info p {
+  margin-top: 0;
+}
+.c-r {
+  color: red;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+body {
+  background-color: #eee;
+  font-size: 0.42666667rem;
+}
+button {
+  border-width: 0;
+  outline-width: 0;
+}
